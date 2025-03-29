@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const dbURI = process.env.MONGO_URI || "mongodb+srv://Shubham_Kumar:Kshubham123@mytestcluster.fehyl.mongodb.net/task-user-db";
+const dbURI = process.env.MONGO_URI;
 
 export const connectDB = async () => {
   try {
